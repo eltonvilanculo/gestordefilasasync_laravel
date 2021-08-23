@@ -3,6 +3,7 @@ Mail :
 php artisan make:mail MailClassExample  
 php artisan vendor:publish --tag=laravel-mail  
 
+change QUEUE in .env from sync to database( or other driver )
 
 
 queue and job :
